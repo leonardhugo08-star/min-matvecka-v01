@@ -136,9 +136,9 @@ function App() {
         <div className="hero-copy">
           <p className="brand-pill">minmatvecka.se · V0.1</p>
           <h1>Min Matvecka</h1>
-          <p className="tagline">En motor. Två vardagar.</p>
+          <p className="tagline">Maten för veckan, klar på några minuter.</p>
           <p className="lead">
-            Samma matplanering skapar en tydlig vecka för LSS-boenden och en snabb vardagsplan för småbarnsfamiljer.
+            Välj vad ni gillar. Få en enkel matsedel, korta recept och en inköpslista som går att använda direkt.
           </p>
           <div className="mode-buttons" aria-label="Välj läge">
             {(['lss', 'family'] as const).map((mode) => (
