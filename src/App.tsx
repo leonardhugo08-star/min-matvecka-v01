@@ -36,22 +36,22 @@ function loadState(): SavedState {
 const copy = {
   lss: {
     button: 'LSS-boende',
-    intro: 'För boenden där maten ska planeras tillsammans.',
+    intro: 'Tydligt, pedagogiskt och enkelt att göra tillsammans med boende — men lika snabbt när personalen bara behöver få veckan klar.',
     nameLabel: 'Boendenamn',
     namePlaceholder: 'Ex. Solrosen',
     peopleLabel: 'Antal personer på boendet',
     restrictionLabel: 'Specialkost, allergier eller konsistens',
-    helper: 'Potatis visar en sak i taget: välj JA, NEJ och skapa en vecka personal kan använda direkt.',
-    outputNote: 'Personalvy + boendevy. Skriv ut matsedel, recept och inköpslista.',
+    helper: 'Välj tillsammans när det finns tid och energi. Tryck skapa direkt när veckan bara måste bli ordnad.',
+    outputNote: 'Tydlig personalvy + boendevy. Matsedel, enkla recept och inköpslista.',
   },
   family: {
     button: 'Familj hemma',
-    intro: 'För familjer som vill slippa vardagsmatskaos.',
+    intro: 'Snabbt, enkelt och varierande för familjer som vill slippa vardagsmatskaos.',
     nameLabel: 'Familjenamn',
     namePlaceholder: 'Ex. Myrenblom',
     peopleLabel: 'Antal personer hemma',
     restrictionLabel: 'Allergier, ogillar eller vardagsbehov',
-    helper: 'Potatis bygger en vardagsvecka med barnfavoriter, variation och storhandlingslista.',
+    helper: 'Välj några favoriter, tryck skapa och få en varierad vecka med inköpslista.',
     outputNote: 'Familjevy. Middagar, snabba recept och lista för storhandling.',
   },
 } satisfies Record<PlannerMode, Record<string, string>>
@@ -136,9 +136,9 @@ function App() {
         <div className="hero-copy">
           <p className="brand-pill">minmatvecka.se · V0.1</p>
           <h1>Min Matvecka</h1>
-          <p className="tagline">Maten för veckan, klar på några minuter.</p>
+          <p className="tagline">Planera tillsammans — eller få veckan klar direkt.</p>
           <p className="lead">
-            Välj vad ni gillar. Få en enkel matsedel, korta recept och en inköpslista som går att använda direkt.
+            Tydliga val för LSS-boenden. Snabba vardagsveckor för barnfamiljer. Matsedel, enkla recept och inköpslista på samma ställe.
           </p>
           <div className="mode-buttons" aria-label="Välj läge">
             {(['lss', 'family'] as const).map((mode) => (
@@ -149,7 +149,7 @@ function App() {
                 onClick={() => chooseMode(mode)}
               >
                 {copy[mode].button}
-                <span>{mode === 'lss' ? 'iPad på boendet' : 'storhandling hemma'}</span>
+                <span>{mode === 'lss' ? 'tydligt · pedagogiskt · involverande' : 'snabbt · enkelt · varierande'}</span>
               </button>
             ))}
           </div>
@@ -167,7 +167,7 @@ function App() {
             <p className="eyebrow">{copy[state.mode].button}</p>
             <h2 id="setup-heading">Skapa första matveckan</h2>
           <p>{modeCopy.intro}</p>
-          <p className="selection-status">Du har markerat {chosenCount} av {preferenceFoods.length} maträtter. Du kan skapa veckan direkt eller välja fler först.</p>
+          <p className="selection-status">Du har markerat {chosenCount} av {preferenceFoods.length} maträtter. Välj tillsammans om ni vill — eller skapa veckan direkt.</p>
         </div>
           <button className="ghost" type="button" onClick={reset}>Rensa</button>
         </div>

@@ -13,7 +13,7 @@ describe('Min Matvecka scratch dual-mode PWA', () => {
     render(<App />)
 
     expect(screen.getByRole('heading', { name: /Min Matvecka/i })).toBeInTheDocument()
-    expect(screen.getByText(/Maten för veckan, klar på några minuter\./i)).toBeInTheDocument()
+    expect(screen.getByText(/Planera tillsammans — eller få veckan klar direkt\./i)).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /LSS-boende/i })).toBeInTheDocument()
     expect(screen.getByRole('button', { name: /Familj hemma/i })).toBeInTheDocument()
     expect(screen.getByRole('img', { name: /Potatis hjälper dig planera veckan/i })).toHaveAttribute('src', 'mascot/marketing/m1-transparent.png')
@@ -25,7 +25,7 @@ describe('Min Matvecka scratch dual-mode PWA', () => {
 
     await user.click(screen.getByRole('button', { name: /LSS-boende/i }))
     expect(screen.getByLabelText(/Boendenamn/i)).toBeInTheDocument()
-    expect(screen.getByText(/För boenden där maten ska planeras tillsammans/i)).toBeInTheDocument()
+    expect(screen.getByText(/Tydligt, pedagogiskt och enkelt/i)).toBeInTheDocument()
 
     await user.clear(screen.getByLabelText(/Boendenamn/i))
     await user.type(screen.getByLabelText(/Boendenamn/i), 'Solrosen')
@@ -46,7 +46,7 @@ describe('Min Matvecka scratch dual-mode PWA', () => {
 
     await user.click(screen.getByRole('button', { name: /Familj hemma/i }))
     expect(screen.getByLabelText(/Familjenamn/i)).toBeInTheDocument()
-    expect(screen.getByText(/För familjer som vill slippa vardagsmatskaos/i)).toBeInTheDocument()
+    expect(screen.getByText(/Snabbt, enkelt och varierande/i)).toBeInTheDocument()
 
     await user.clear(screen.getByLabelText(/Familjenamn/i))
     await user.type(screen.getByLabelText(/Familjenamn/i), 'Myrenblom')
