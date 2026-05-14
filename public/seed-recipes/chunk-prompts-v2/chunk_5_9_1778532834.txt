@@ -1,0 +1,57 @@
+You are executing a small, bounded Min Matvecka image-generation chunk.
+
+Project root: /Users/leo/leo-os/experiments/min-matvecka-scratch-dual-mode-pwa
+Output dir: /Users/leo/leo-os/experiments/min-matvecka-scratch-dual-mode-pwa/public/seed-recipes/images
+Append log lines to: /Users/leo/leo-os/experiments/min-matvecka-scratch-dual-mode-pwa/public/seed-recipes/image-generation-log.jsonl
+
+Items to process, as JSON:
+[
+  {
+    "index": 5,
+    "id": "biffar-med-potatis-och-brunsas",
+    "title": "Biffar med potatis och brunsås",
+    "target": "/Users/leo/leo-os/experiments/min-matvecka-scratch-dual-mode-pwa/public/seed-recipes/images/biffar-med-potatis-och-brunsas.png",
+    "prompt": "pan fried Swedish beef patties with boiled potatoes, brown sauce and carrots, realistic appetizing home-cooked Swedish family dinner, beautifully plated on a simple ceramic plate, fresh modern Scandinavian kitchen table setting, natural daylight, soft shadows, clean beige and warm wood tones, realistic food texture, inviting everyday meal, little premium but still weekday dinner, not luxury restaurant, not fine dining, not overstyled, not cartoon, not illustration, not glossy stock photo, no text, no hands, no people, no logos"
+  },
+  {
+    "index": 6,
+    "id": "pannbiff-med-lok-och-potatis",
+    "title": "Pannbiff med lök och potatis",
+    "target": "/Users/leo/leo-os/experiments/min-matvecka-scratch-dual-mode-pwa/public/seed-recipes/images/pannbiff-med-lok-och-potatis.png",
+    "prompt": "Swedish pannbiff beef patties with fried onions, potatoes and lingonberries, realistic appetizing home-cooked Swedish family dinner, beautifully plated on a simple ceramic plate, fresh modern Scandinavian kitchen table setting, natural daylight, soft shadows, clean beige and warm wood tones, realistic food texture, inviting everyday meal, little premium but still weekday dinner, not luxury restaurant, not fine dining, not overstyled, not cartoon, not illustration, not glossy stock photo, no text, no hands, no people, no logos"
+  },
+  {
+    "index": 7,
+    "id": "kalpudding-med-potatis-och-lingon",
+    "title": "Kålpudding med potatis och lingon",
+    "target": "/Users/leo/leo-os/experiments/min-matvecka-scratch-dual-mode-pwa/public/seed-recipes/images/kalpudding-med-potatis-och-lingon.png",
+    "prompt": "Swedish cabbage pudding with boiled potatoes and lingonberries, realistic appetizing home-cooked Swedish family dinner, beautifully plated on a simple ceramic plate, fresh modern Scandinavian kitchen table setting, natural daylight, soft shadows, clean beige and warm wood tones, realistic food texture, inviting everyday meal, little premium but still weekday dinner, not luxury restaurant, not fine dining, not overstyled, not cartoon, not illustration, not glossy stock photo, no text, no hands, no people, no logos"
+  },
+  {
+    "index": 8,
+    "id": "kottfarslimpa-med-graddsas",
+    "title": "Köttfärslimpa med gräddsås",
+    "target": "/Users/leo/leo-os/experiments/min-matvecka-scratch-dual-mode-pwa/public/seed-recipes/images/kottfarslimpa-med-graddsas.png",
+    "prompt": "Swedish meatloaf with cream sauce, potatoes, carrots and lingonberries, realistic appetizing home-cooked Swedish family dinner, beautifully plated on a simple ceramic plate, fresh modern Scandinavian kitchen table setting, natural daylight, soft shadows, clean beige and warm wood tones, realistic food texture, inviting everyday meal, little premium but still weekday dinner, not luxury restaurant, not fine dining, not overstyled, not cartoon, not illustration, not glossy stock photo, no text, no hands, no people, no logos"
+  },
+  {
+    "index": 9,
+    "id": "raggmunk-med-flask-och-lingon",
+    "title": "Raggmunk med fläsk och lingon",
+    "target": "/Users/leo/leo-os/experiments/min-matvecka-scratch-dual-mode-pwa/public/seed-recipes/images/raggmunk-med-flask-och-lingon.png",
+    "prompt": "Swedish potato pancakes raggmunk with crispy pork and lingonberries, realistic appetizing home-cooked Swedish family dinner, beautifully plated on a simple ceramic plate, fresh modern Scandinavian kitchen table setting, natural daylight, soft shadows, clean beige and warm wood tones, realistic food texture, inviting everyday meal, little premium but still weekday dinner, not luxury restaurant, not fine dining, not overstyled, not cartoon, not illustration, not glossy stock photo, no text, no hands, no people, no logos"
+  }
+]
+
+For each item:
+1. If target exists and is >10 KB, append a JSONL record with status='skipped' and continue.
+2. Otherwise call image_generate exactly once with aspect_ratio='landscape' and the item's exact prompt.
+3. Copy the generated image path returned by image_generate to the target path.
+4. Append a JSON object to image-generation-log.jsonl with fields: id, title, status ('generated'|'skipped'|'failed'), target, source, error.
+5. Continue after individual failures.
+
+Rules:
+- Do not ask questions.
+- Do not modify recipe data.
+- Use the prompt exactly as stored.
+- Final response must be one short line: generated=N skipped=N failed=N.

@@ -1,0 +1,532 @@
+{
+  "updated_at": "2026-05-12",
+  "currency": "SEK",
+  "source": "Manuella ca-priser för svensk dagligvaruhandel, ej live-scraping",
+  "items": [
+    {
+      "name": "ananas",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "bacon",
+      "unit": "kg",
+      "estimated_price": 120,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "blandfärs",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "broccoli",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "bröd",
+      "unit": "kg",
+      "estimated_price": 75,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "bulgur",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "buljong",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "bär",
+      "unit": "kg",
+      "estimated_price": 85,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "citron",
+      "unit": "st",
+      "estimated_price": 6,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "crème fraiche",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "dill",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "falafel",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "falukorv",
+      "unit": "kg",
+      "estimated_price": 70,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "fläskkorv",
+      "unit": "kg",
+      "estimated_price": 70,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "grädde",
+      "unit": "liter",
+      "estimated_price": 48,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "gräddsås",
+      "unit": "liter",
+      "estimated_price": 35,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "grönsaker",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "gul lök",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "gurka",
+      "unit": "st",
+      "estimated_price": 18,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "halloumi",
+      "unit": "kg",
+      "estimated_price": 150,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "högrev",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "isterband",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "kassler",
+      "unit": "kg",
+      "estimated_price": 90,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "kebabkött",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "keso",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "ketchup",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "kroppkakor",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "krossade tomater",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "kycklingfärs",
+      "unit": "kg",
+      "estimated_price": 105,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "kålrot",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "kött eller korv",
+      "unit": "kg",
+      "estimated_price": 70,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "köttbullar",
+      "unit": "kg",
+      "estimated_price": 95,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "laxfilé",
+      "unit": "kg",
+      "estimated_price": 190,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "lime",
+      "unit": "st",
+      "estimated_price": 6,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "lingon",
+      "unit": "liter",
+      "estimated_price": 55,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "lök",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "majs",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "makaroner",
+      "unit": "kg",
+      "estimated_price": 25,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "matlagningsgrädde",
+      "unit": "liter",
+      "estimated_price": 48,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "mjöl",
+      "unit": "kg",
+      "estimated_price": 15,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "mjölk",
+      "unit": "liter",
+      "estimated_price": 15,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "morötter",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "nudlar",
+      "unit": "kg",
+      "estimated_price": 45,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "nötfärs",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "ost",
+      "unit": "kg",
+      "estimated_price": 110,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "pannkakor",
+      "unit": "kg",
+      "estimated_price": 55,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "paprika",
+      "unit": "st",
+      "estimated_price": 45,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "pasta",
+      "unit": "kg",
+      "estimated_price": 28,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "potatis",
+      "unit": "kg",
+      "estimated_price": 18,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "pressgurka",
+      "unit": "st",
+      "estimated_price": 18,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "rimmat fläsk",
+      "unit": "kg",
+      "estimated_price": 95,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "ris",
+      "unit": "kg",
+      "estimated_price": 32,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "rödbetor",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "rödlök",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "sallad",
+      "unit": "kg",
+      "estimated_price": 45,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "senap",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "sirap",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "skinka",
+      "unit": "kg",
+      "estimated_price": 95,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "smör",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "sylt",
+      "unit": "liter",
+      "estimated_price": 45,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "sås",
+      "unit": "liter",
+      "estimated_price": 35,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "såsbas",
+      "unit": "liter",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "timjan",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "tomat",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "torskfilé",
+      "unit": "kg",
+      "estimated_price": 170,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "valfritt protein",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "vegetarisk bas",
+      "unit": "kg",
+      "estimated_price": 32,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "vitkål",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "vitkålssallad",
+      "unit": "kg",
+      "estimated_price": 45,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "vitlök",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "yoghurt",
+      "unit": "liter",
+      "estimated_price": 28,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "ägg",
+      "unit": "st",
+      "estimated_price": 3.5,
+      "confidence": "high",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "ärtor",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "medium",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "ärtsoppa",
+      "unit": "liter",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    },
+    {
+      "name": "örter",
+      "unit": "kg",
+      "estimated_price": 35,
+      "confidence": "low",
+      "notes": "ca-pris svensk dagligvaruhandel, v0-estimat"
+    }
+  ]
+}

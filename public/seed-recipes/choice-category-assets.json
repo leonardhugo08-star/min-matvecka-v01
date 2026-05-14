@@ -1,0 +1,21 @@
+{
+  "tacos": "/seed-recipes/choice-categories/tacos.png",
+  "pasta": "/seed-recipes/choice-categories/pasta.png",
+  "chicken": "/seed-recipes/choice-categories/chicken.png",
+  "fish": "/seed-recipes/choice-categories/fish.png",
+  "meatballs": "/seed-recipes/choice-categories/meatballs.png",
+  "soup": "/seed-recipes/choice-categories/soup.png",
+  "vegetarian": "/seed-recipes/choice-categories/vegetarian.png",
+  "pancakes": "/seed-recipes/choice-categories/pancakes.png",
+  "salmon": "/seed-recipes/choice-categories/salmon.png",
+  "sausage": "/seed-recipes/choice-categories/sausage.png",
+  "potatis": "/seed-recipes/choice-categories/potatis.png",
+  "ris": "/seed-recipes/choice-categories/ris.png",
+  "ägg": "/seed-recipes/choice-categories/agg.png",
+  "köttfärs": "/seed-recipes/choice-categories/kottfars.png",
+  "falukorv": "/seed-recipes/choice-categories/falukorv.png",
+  "bönor": "/seed-recipes/choice-categories/bonor.png",
+  "linser": "/seed-recipes/choice-categories/linser.png",
+  "halloumi": "/seed-recipes/choice-categories/halloumi.png",
+  "kyckling": "/seed-recipes/choice-categories/kyckling.png"
+}
